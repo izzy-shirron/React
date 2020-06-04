@@ -26,6 +26,13 @@ export function* getRepos() {
   }
 }
 
+export function* getRandomImage() {
+  var image = document.createElement('img');
+ // image.src = 'imgur.com/random';
+  image.src = 'https://randomwordgenerator.com/picture.php';
+  document.appendChild(image);
+}
+
 /**
  * Root saga manages watcher lifecycle
  */

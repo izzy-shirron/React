@@ -96,6 +96,7 @@ export function HomePage({
           </Form>
           <ReposList {...reposListProps} />
         </Section>
+        <button onclick = "getRandomImage()">Click for a random picture</button>
       </div>
     </article>
   );
